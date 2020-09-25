@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uzbek24</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+  <div class="top-banner-ads container">
+    <a href="#"><img src="img/big-ad.png" alt="ads"></a>
+  </div>
+  <div class="menu-mask"></div>
+  <header class="main-header">
+    <div class="container">
+      <div class="basic-flex responsive-header-wrapper">
+        <div class="basic-flex responsive-top">
+          <div class="logo-wrapper">
+            <a href="#" class="logo">
+              <img src="img/logo.png" alt="Uzbek24">
+            </a>
+          </div>
+          <div class="logo-mask"></div>
+          <div class="hader__date">
+            <span class="exact-date">22.05.2020</span>
+            <span class="date__time">12:25</span>
+          </div>
+          <div class="weather-box basic-flex">
+            <div class="region--active basic-flex">
+              <span class="region__name">Ташкент</span>
+              <span class="region__temperature" data-sign="+">29°C</span>
+            </div>
+            <ul class="regions-list">
+              <li class="regions__item"><a href="#">Андижан</a></li>
+              <li class="regions__item"><a href="#">Наманган</a></li>
+              <li class="regions__item"><a href="#">Нукус</a></li>
+              <li class="regions__item"><a href="#">Ташкент о.</a></li>
+              <li class="regions__item"><a href="#">Бухара</a></li>
+              <li class="regions__item"><a href="#">Сырдарья</a></li>
+              <li class="regions__item"><a href="#">Навои</a></li>
+              <li class="regions__item"><a href="#">Ургенч</a></li>
+              <li class="regions__item"><a href="#">Фергана</a></li>
+              <li class="regions__item"><a href="#">Самарканд</a></li>
+              <li class="regions__item"><a href="#">Термез</a></li>
+              <li class="regions__item"><a href="#">Ташкент</a></li>
+              <li class="regions__item"><a href="#">Джизак</a></li>
+              <li class="regions__item"><a href="#">Карши</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="basic-flex responsive-bottom">
+          <form method="GET" class="search-form">
+            <label for="search-input">
+              <input type="text" id="search-input" placeholder="Поиск" required>
+            </label>
+            <button type="submit" class="btn search-btn"></button>
+          </form>
+          <a href="#" class="join-telegram-link basic-flex" target="_blank">Наш Telegram</a>
+          <div class="languages">
+            <button type="button" class="btn language__option language__option--active basic-flex">Русский</button>
+            <div class="languages__list">
+              <button type="button" class="btn language__option language__option--uz" data-status="disabled">O'zbekcha</button>
+              <button type="button" class="btn language__option language__option--ru" data-status="disabled">Русский</button>
+              <button type="button" class="btn language__option language__option--uz-kirill" data-status="disabled">Ўзбекча</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <div class="basic-flex main-wrapper">
+        <button type="button" class="btn btn-menu">
+          <span class="hamburger"></span>
+        </button>
+        <nav data-sticky-class="navbar-mask--active" class="navbar" data-sticky-wrap=true class="small-ad" data-sticky-for="1024" data-sticky> 
+          <ul class="navbar__menu">
+            <li class="menu__item"><a href="#" class="menu__link menu__link--active">Главная</a></li>
+            <li class="menu__item"><a href="list.html" class="menu__link">Новости Узбекистана</a></li>
+            <li class="menu__item"><a href="list.html" class="menu__link">Новости мира</a></li>
+            <li class="menu__item"><a href="list.html" class="menu__link">Экономика</a></li>
+            <li class="menu__item"><a href="list.html" class="menu__link">Политика</a></li>
+            <li class="menu__item"><a href="list.html" class="menu__link">Общество</a></li>
+            <li class="menu__item"><a href="list.html" class="menu__link">Технологии</a></li>
+            <li class="menu__item"><a href="list.html" class="menu__link">Спорт</a></li>
+            <li class="menu__item"><a href="list.html" class="menu__link">Культура</a></li>
+            <li class="menu__item"><a href="list.html" class="menu__link">Происшествия</a></li>
+          </ul>
+          <ul class="social-links basic-flex">
+            <li class="social__item"><a href="#"><img src="img/fb.png" alt="Facebook"></a></li>
+            <li class="social__item"><a href="#"><img src="img/insta.png" alt="Instagram"></a></li>
+            <li class="social__item"><a href="#"><img src="img/twitter.png" alt="Twitter"></a></li>
+            <li class="social__item"><a href="#"><img src="img/whatsapp.png" alt="WhatsApp"></a></li>
+            <li class="social__item"><a href="#"><img src="img/youtube.png" alt="YouTube"></a></li>
+            <li class="social__item"><a href="#"><img src="img/telegram.png" alt="Telegram"></a></li>
+          </ul>
+          <div class="googness-box">
+            <label class="goodness__label">Лента добра<input type="checkbox" class="visually-hidden"><span class="custom-toglle"></span></label>
+            <div class="googness-modal">
+              <h5 class="goodness__title">Лента добра активирована.
+                </h5>
+              <p class="goodness__description">Это зона смеха, позитива и единорожек.</p>
+              <img src="img/emoji.png" alt="emoji">
+            </div>
+          </div>
+        </nav>
+        <section class="middle-section">
+          <div class="currencies basic-flex">
+            <div class="currency">
+              <span class="currency__name">USD</span>
+              <span class="currency__amount currency__amount--increased">10129.56</span>
+            </div>
+            <div class="currency">
+              <span class="currency__name">EUR</span>
+              <span class="currency__amount currency__amount--increased">10955.12</span>
+            </div>
+            <div class="currency">
+              <span class="currency__name">RUB</span>
+              <span class="currency__amount currency__amount--decreased">137.54</span>
+            </div>
+          </div>
+          <div class="covid-box">
+            <h2 class="covid__title">COVID-19</h2>
+            <p class="covid__description">Последние новости о COVID-19 в Узбекистане </p>
+            <div class="covid-block basic-flex">
+              <div class="stats__item basic-flex">
+                <div class="stats__img"></div>
+                <div class="stats-text-box">
+                  <h4>Инфицированы</h4>
+                  <p class="covid-infected">3000</p>
+                </div>
+              </div>
+              <div class="stats__item basic-flex">
+                <div class="stats__img"></div>
+                <div class="stats-text-box">
+                  <h4>Выздоровели</h4>
+                  <p class="covid-recovered">2438</p>
+                </div>
+              </div>
+              <div class="stats__item basic-flex">
+                <div class="stats__img"></div>
+                <div class="stats-text-box">
+                  <h4>Умерли</h4>
+                  <p class="covid-died">12</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="big-post basic-flex">
+            <div class="big-post__img">
+              <img src="img/main-post.jpg" alt="Main Post">
+            </div>
+            <div class="big-post__content">
+              <a class="big-post__title" href="#">Еще одна область стала зоной,
+                свободной от Коронавируса</a>
+              <h4 class="big-post__subtitle">В Бухарской области выздоровели два 
+                последних пациента с COVID-19.</h4>
+              <p class="big-post__description">По информации Министерства
+                здравоохранения, в Бухарской области 
+                вылечены и отправлены на реабилитацию
+                два последних пациента с диагнозом
+                COVID-19.
+              </p>
+              <p class="big-post__description">
+                Обе пациентки заразились коронавирусом
+                в результате контакта с больными.
+                Одной 53 года, а другой 6 лет.
+              </p>
+              <p class="big-post__description">
+                Бухарская область наряду с Сурхандарьинской,
+                Джизакской, Кашкадарьинской и
+                Ферганской областями вошла в число
+                территорий, свободных от COVID-19. 
+              </p> 
+            </div>
+          </div>
+          <section class="latest-news latest-news-mobile">
+            <div class="latest-news__wrapper">
+              <h3 class="latest-news__title">Последние новости </h3>
+               <a href="#" class="latest-news__item">
+                 <span class="lates-news__date">16:37 / Бугун</span>
+                 <h4 class="lates-news-item__title">TEAM University проводит онлайн-брифинг 27 мая</h4>
+               </a>
+               <a href="#" class="latest-news__item">
+                 <span class="lates-news__date">16:37 / Бугун</span>
+                 <h4 class="lates-news-item__title">TEAM University проводит онлайн-брифинг 27 мая</h4>
+               </a>
+               <a href="#" class="latest-news__item">
+                 <span class="lates-news__date">16:37 / Бугун</span>
+                 <h4 class="lates-news-item__title">TEAM University проводит онлайн-брифинг 27 мая</h4>
+               </a>
+               <a href="#" class="latest-news__item">
+                 <span class="lates-news__date">16:37 / 31.05.2020</span>
+                 <h4 class="lates-news-item__title">TEAM University проводит онлайн-брифинг 27 мая</h4>
+               </a>
+               <a href="#" class="latest-news__item">
+                 <span class="lates-news__date">16:37 / 31.05.2020</span>
+                 <h4 class="lates-news-item__title">TEAM University проводит онлайн-брифинг 27 мая</h4>
+               </a>
+               <a href="#" class="latest-news__item">
+                 <span class="lates-news__date">16:37 / 31.05.2020</span>
+                 <h4 class="lates-news-item__title">TEAM University проводит онлайн-брифинг 27 мая</h4>
+               </a>
+            </div>
+            <div data-sticky-wrap=true class="small-ad" data-sticky-for="768" data-sticky data-sticky-class="mask--active">
+              <a href="#">
+                <img src="img/simple-ad.png" alt="Ad">
+              </a>
+            </div>
+           </section>
+          <div class="most-viewed">
+            <h3 class="most-viewed__title">Часто читаемые новости</h3>
+            <a class="most-viewed__post basic-flex" href="#">
+              <div class="most-viewed-img">
+                <img src="img/post.jpg" alt="Post">
+              </div>
+              <div class="post__content">
+                <h4 class="post__title">В Узбекистане отменят стикеры и разрешат пользоваться автомобилем без ограничений</h4>
+                <p class="post__description">– в регионах с благоприятной эпидемиологической ситуацией планируется разрешить возобновить работу магазинам непродовольственных товаров, службам такси, строительства и медицинской диагностики, пунктам ремонта бытовой техники и обуви, парикмахерских с соблюдением усиленных санитарных правил;</p>
+                <div class="post__date basic-flex">
+                  <span class="post-date-time">16:37</span>
+                  <span class="post-date-day">25.05.2020</span>
+                </div>
+              </div>
+            </a>
+            <a class="most-viewed__post basic-flex" href="#">
+              <div class="most-viewed-img">
+                <img src="img/post.jpg" alt="Post">
+              </div>
+              <div class="post__content">
+                <h4 class="post__title">В Узбекистане отменят стикеры и разрешат пользоваться автомобилем без ограничений</h4>
+                <p class="post__description">– в регионах с благоприятной эпидемиологической ситуацией планируется разрешить возобновить работу магазинам непродовольственных товаров, службам такси, строительства и медицинской диагностики, пунктам ремонта бытовой техники и обуви, парикмахерских с соблюдением усиленных санитарных правил;</p>
+                <div class="post__date basic-flex">
+                  <span class="post-date-time">16:37</span>
+                  <span class="post-date-day">25.05.2020</span>
+                </div>
+              </div>
+            </a>
+            <a class="most-viewed__post basic-flex" href="#">
+              <div class="most-viewed-img">
+                <img src="img/post.jpg" alt="Post">
+              </div>
+              <div class="post__content">
+                <h4 class="post__title">В Узбекистане отменят стикеры и разрешат пользоваться автомобилем без ограничений</h4>
+                <p class="post__description">– в регионах с благоприятной эпидемиологической ситуацией планируется разрешить возобновить работу магазинам непродовольственных товаров, службам такси, строительства и медицинской диагностики, пунктам ремонта бытовой техники и обуви, парикмахерских с соблюдением усиленных санитарных правил;</p>
+                <div class="post__date basic-flex">
+                  <span class="post-date-time">16:37</span>
+                  <span class="post-date-day">25.05.2020</span>
+                </div>
+              </div>
+            </a>
+            <a class="most-viewed__post basic-flex" href="#">
+              <div class="most-viewed-img">
+                <img src="img/post.jpg" alt="Post">
+              </div>
+              <div class="post__content">
+                <h4 class="post__title">В Узбекистане отменят стикеры и разрешат пользоваться автомобилем без ограничений</h4>
+                <p class="post__description">– в регионах с благоприятной эпидемиологической ситуацией планируется разрешить возобновить работу магазинам непродовольственных товаров, службам такси, строительства и медицинской диагностики, пунктам ремонта бытовой техники и обуви, парикмахерских с соблюдением усиленных санитарных правил;</p>
+                <div class="post__date basic-flex">
+                  <span class="post-date-time">16:37</span>
+                  <span class="post-date-day">25.05.2020</span>
+                </div>
+              </div>
+            </a>
+            <a class="most-viewed__post basic-flex" href="#">
+              <div class="most-viewed-img">
+                <img src="img/post.jpg" alt="Post">
+              </div>
+              <div class="post__content">
+                <h4 class="post__title">В Узбекистане отменят стикеры и разрешат пользоваться автомобилем без ограничений</h4>
+                <p class="post__description">– в регионах с благоприятной эпидемиологической ситуацией планируется разрешить возобновить работу магазинам непродовольственных товаров, службам такси, строительства и медицинской диагностики, пунктам ремонта бытовой техники и обуви, парикмахерских с соблюдением усиленных санитарных правил;</p>
+                <div class="post__date basic-flex">
+                  <span class="post-date-time">16:37</span>
+                  <span class="post-date-day">25.05.2020</span>
+                </div>
+              </div>
+            </a>
+            <a class="most-viewed__post basic-flex" href="#">
+              <div class="most-viewed-img">
+                <img src="img/post.jpg" alt="Post">
+              </div>
+              <div class="post__content">
+                <h4 class="post__title">В Узбекистане отменят стикеры и разрешат пользоваться автомобилем без ограничений</h4>
+                <p class="post__description">– в регионах с благоприятной эпидемиологической ситуацией планируется разрешить возобновить работу магазинам непродовольственных товаров, службам такси, строительства и медицинской диагностики, пунктам ремонта бытовой техники и обуви, парикмахерских с соблюдением усиленных санитарных правил;</p>
+                <div class="post__date basic-flex">
+                  <span class="post-date-time">16:37</span>
+                  <span class="post-date-day">25.05.2020</span>
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="app-block">
+            <div class="app-content">
+              <h3>Будь всегда в курсе</h3>
+              <p>все новости в твоём телефоне
+                скачайте мобильное приложение
+              </p>
+              <div class="app-links-wrapper basic-flex">
+                <a href="#"><img src="img/googleplay.png" alt="Google Play"></a>
+                <a href="#"><img src="img/appstore.png" alt="AppStore"></a>
+                <a href="#"><img src="img//logo-sm.png" alt="Logo"></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section class="latest-news">
+         <div class="latest-news__wrapper">
+           <h3 class="latest-news__title">Последние новости </h3>
+            <a href="#" class="latest-news__item">
+              <span class="lates-news__date">16:37 / Бугун</span>
+              <h4 class="lates-news-item__title">TEAM University проводит онлайн-брифинг 27 мая</h4>
+            </a>
+            <a href="#" class="latest-news__item">
+              <span class="lates-news__date">16:37 / 31.05.2020</span>
+              <h4 class="lates-news-item__title">TEAM University проводит онлайн-брифинг 27 мая</h4>
+            </a>
+            <a href="#" class="latest-news__item">
+              <span class="lates-news__date">16:37 / 31.05.2020</span>
+              <h4 class="lates-news-item__title">TEAM University проводит онлайн-брифинг 27 мая</h4>
+            </a>
+            <a href="#" class="latest-news__item">
+              <span class="lates-news__date">16:37 / 31.05.2020</span>
+              <h4 class="lates-news-item__title">TEAM University проводит онлайн-брифинг 27 мая</h4>
+            </a>
+            <a href="#" class="latest-news__item">
+              <span class="lates-news__date">16:37 / 31.05.2020</span>
+              <h4 class="lates-news-item__title">TEAM University проводит онлайн-брифинг 27 мая</h4>
+            </a>
+            <a href="#" class="latest-news__item">
+              <span class="lates-news__date">16:37 / 31.05.2020</span>
+              <h4 class="lates-news-item__title">TEAM University проводит онлайн-брифинг 27 мая</h4>
+            </a>
+         </div>
+         <div data-sticky-wrap=true class="small-ad" data-sticky-for="768" data-sticky data-sticky-class="mask--active">
+           <a href="#">
+             <img src="img/simple-ad.png" alt="Ad">
+           </a>
+         </div>
+        </section>
+      </div>
+      <section class="latest-news-section">
+        <ul class="latest-news-list basic-flex">
+          <li class="basic-flex clearfix">
+            <div class="itemImage">
+              <a href="#">
+                <img src="img/post.jpg" alt="Post">
+              </a>
+            </div>
+            <div class="itemDatas">
+              <div class="itemCat">
+                <a href="#">Mahalliy</a>
+              </div>
+              <div class="itemData">
+                <span class="h-date">04:44 Bugun
+                </span>
+                <span><i class="far fa-eye"></i> 16848</span>
+              </div>
+              <div class="itemTitle"><a href="#">Toshkentdagi “Farhod” bozori yarim oyga yopilishi haqidagi xabarlar rad etildi</a></div>
+              <div class="itemText">Sanitar-epidemiologik osoyishtalik markazidan ma’lum qilishlaricha, bozorda koronavirus infeksiyasiga chalinish bilan bog‘liq birorta holat qayd etilmagan</div>
+            </div>
+          </li>
+          <li class="basic-flex clearfix">
+            <div class="itemImage">
+              <a href="#">
+                <img src="img/post.jpg" alt="Post">
+              </a>
+            </div>
+            <div class="itemDatas">
+              <div class="itemCat">
+                <a href="#">Mahalliy</a>
+              </div>
+              <div class="itemData">
+                <span class="h-date">04:44 Bugun
+                </span>
+                <span><i class="far fa-eye"></i> 16848</span>
+              </div>
+              <div class="itemTitle"><a href="#">Toshkentdagi “Farhod” bozori yarim oyga yopilishi haqidagi xabarlar rad etildi</a></div>
+              <div class="itemText">Sanitar-epidemiologik osoyishtalik markazidan ma’lum qilishlaricha, bozorda koronavirus infeksiyasiga chalinish bilan bog‘liq birorta holat qayd etilmagan</div>
+            </div>
+          </li>
+          <li class="basic-flex clearfix">
+            <div class="itemImage">
+              <a href="#">
+                <img src="img/post.jpg" alt="Post">
+              </a>
+            </div>
+            <div class="itemDatas">
+              <div class="itemCat">
+                <a href="#">Mahalliy</a>
+              </div>
+              <div class="itemData">
+                <span class="h-date">04:44 Bugun
+                </span>
+                <span><i class="far fa-eye"></i> 16848</span>
+              </div>
+              <div class="itemTitle"><a href="#">Toshkentdagi “Farhod” bozori yarim oyga yopilishi haqidagi xabarlar rad etildi</a></div>
+              <div class="itemText">Sanitar-epidemiologik osoyishtalik markazidan ma’lum qilishlaricha, bozorda koronavirus infeksiyasiga chalinish bilan bog‘liq birorta holat qayd etilmagan</div>
+            </div>
+          </li>
+          <li class="basic-flex clearfix">
+            <div class="itemImage">
+              <a href="#">
+                <img src="img/post.jpg" alt="Post">
+              </a>
+            </div>
+            <div class="itemDatas">
+              <div class="itemCat">
+                <a href="#">Mahalliy</a>
+              </div>
+              <div class="itemData">
+                <span class="h-date">04:44 Bugun
+                </span>
+                <span><i class="far fa-eye"></i> 16848</span>
+              </div>
+              <div class="itemTitle"><a href="#">Toshkentdagi “Farhod” bozori yarim oyga yopilishi haqidagi xabarlar rad etildi</a></div>
+              <div class="itemText">Sanitar-epidemiologik osoyishtalik markazidan ma’lum qilishlaricha, bozorda koronavirus infeksiyasiga chalinish bilan bog‘liq birorta holat qayd etilmagan</div>
+            </div>
+          </li>
+          <li class="basic-flex clearfix">
+            <div class="itemImage">
+              <a href="#">
+                <img src="img/post.jpg" alt="Post">
+              </a>
+            </div>
+            <div class="itemDatas">
+              <div class="itemCat">
+                <a href="#">Mahalliy</a>
+              </div>
+              <div class="itemData">
+                <span class="h-date">04:44 Bugun
+                </span>
+                <span><i class="far fa-eye"></i> 16848</span>
+              </div>
+              <div class="itemTitle"><a href="#">Toshkentdagi “Farhod” bozori yarim oyga yopilishi haqidagi xabarlar rad etildi</a></div>
+              <div class="itemText">Sanitar-epidemiologik osoyishtalik markazidan ma’lum qilishlaricha, bozorda koronavirus infeksiyasiga chalinish bilan bog‘liq birorta holat qayd etilmagan</div>
+            </div>
+          </li>
+          <li class="basic-flex clearfix">
+            <div class="itemImage">
+              <a href="#">
+                <img src="img/post.jpg" alt="Post">
+              </a>
+            </div>
+            <div class="itemDatas">
+              <div class="itemCat">
+                <a href="#">Mahalliy</a>
+              </div>
+              <div class="itemData">
+                <span class="h-date">04:44 / 31.05.2020
+                </span>
+                <span><i class="far fa-eye"></i> 16848</span>
+              </div>
+              <div class="itemTitle"><a href="#">Toshkentdagi “Farhod” bozori yarim oyga yopilishi haqidagi xabarlar rad etildi</a></div>
+              <div class="itemText">Sanitar-epidemiologik osoyishtalik markazidan ma’lum qilishlaricha, bozorda koronavirus infeksiyasiga chalinish bilan bog‘liq birorta holat qayd etilmagan</div>
+            </div>
+          </li>
+          <li class="basic-flex clearfix">
+            <div class="itemImage">
+              <a href="#">
+                <img src="img/post.jpg" alt="Post">
+              </a>
+            </div>
+            <div class="itemDatas">
+              <div class="itemCat">
+                <a href="#">Mahalliy</a>
+              </div>
+              <div class="itemData">
+                <span class="h-date">04:44 / 31.05.2020
+                </span>
+                <span><i class="far fa-eye"></i> 16848</span>
+              </div>
+              <div class="itemTitle"><a href="#">Toshkentdagi “Farhod” bozori yarim oyga yopilishi haqidagi xabarlar rad etildi</a></div>
+              <div class="itemText">Sanitar-epidemiologik osoyishtalik markazidan ma’lum qilishlaricha, bozorda koronavirus infeksiyasiga chalinish bilan bog‘liq birorta holat qayd etilmagan</div>
+            </div>
+          </li>
+          <li class="basic-flex clearfix">
+            <div class="itemImage">
+              <a href="#">
+                <img src="img/post.jpg" alt="Post">
+              </a>
+            </div>
+            <div class="itemDatas">
+              <div class="itemCat">
+                <a href="#">Mahalliy</a>
+              </div>
+              <div class="itemData">
+                <span class="h-date">04:44 / 31.05.2020
+                </span>
+                <span><i class="far fa-eye"></i> 16848</span>
+              </div>
+              <div class="itemTitle"><a href="#">Toshkentdagi “Farhod” bozori yarim oyga yopilishi haqidagi xabarlar rad etildi</a></div>
+              <div class="itemText">Sanitar-epidemiologik osoyishtalik markazidan ma’lum qilishlaricha, bozorda koronavirus infeksiyasiga chalinish bilan bog‘liq birorta holat qayd etilmagan</div>
+            </div>
+          </li>
+          <li class="basic-flex clearfix">
+            <div class="itemImage">
+              <a href="#">
+                <img src="img/post.jpg" alt="Post">
+              </a>
+            </div>
+            <div class="itemDatas">
+              <div class="itemCat">
+                <a href="#">Mahalliy</a>
+              </div>
+              <div class="itemData">
+                <span class="h-date">04:44 / 31.05.2020
+                </span>
+                <span><i class="far fa-eye"></i> 16848</span>
+              </div>
+              <div class="itemTitle"><a href="#">Toshkentdagi “Farhod” bozori yarim oyga yopilishi haqidagi xabarlar rad etildi</a></div>
+              <div class="itemText">Sanitar-epidemiologik osoyishtalik markazidan ma’lum qilishlaricha, bozorda koronavirus infeksiyasiga chalinish bilan bog‘liq birorta holat qayd etilmagan</div>
+            </div>
+          </li>
+          <li class="basic-flex clearfix">
+            <div class="itemImage">
+              <a href="#">
+                <img src="img/post.jpg" alt="Post">
+              </a>
+            </div>
+            <div class="itemDatas">
+              <div class="itemCat">
+                <a href="#">Mahalliy</a>
+              </div>
+              <div class="itemData">
+                <span class="h-date">04:44 / 31.05.2020
+                </span>
+                <span><i class="far fa-eye"></i> 16848</span>
+              </div>
+              <div class="itemTitle"><a href="#">Toshkentdagi “Farhod” bozori yarim oyga yopilishi haqidagi xabarlar rad etildi</a></div>
+              <div class="itemText">Sanitar-epidemiologik osoyishtalik markazidan ma’lum qilishlaricha, bozorda koronavirus infeksiyasiga chalinish bilan bog‘liq birorta holat qayd etilmagan</div>
+            </div>
+          </li>
+        </ul>
+
+        <a href="#" class="load-more-latest-news more-load-link">Больше новостей</a>
+      </section>
+    </div>
+  </main>
+
+
+  <footer class="main-footer">
+    <div class="container">
+      <div class="footer__top">
+        <ul class="footer__menu basic-flex">
+          <li class="footer-menu__item"><a href="#">Информация о сайте </a></li>
+          <li class="footer-menu__item"><a href="#">Напишите нам</a></li>
+          <li class="footer-menu__item"><a href="#">Реклама</a></li>
+          <li class="footer-menu__item"><a href="#">Воспользоваться информацией на сайте</a></li>
+          <li class="footer-menu__item"><a href="#">Темы дня</a></li>
+          <li class="footer-menu__item"><a href="#">Наша команда</a></li>
+        </ul>
+        <div class="footer__social-links basic-flex">
+          <a href="#" target="_blank" class="telegram-footer-join">
+            Наш Telegram
+          </a>
+          <ul class="social-links__menu basic-flex">
+            <li class="social__item"><a href="#"><img src="img/fb.png" alt="Facebook"></a></li>
+            <li class="social__item"><a href="#"><img src="img/insta.png" alt="Instagram"></a></li>
+            <li class="social__item"><a href="#"><img src="img/twitter.png" alt="Twitter"></a></li>
+            <li class="social__item"><a href="#"><img src="img/whatsapp.png" alt="WhatsApp"></a></li>
+            <li class="social__item"><a href="#"><img src="img/youtube.png" alt="YouTube"></a></li>
+            <li class="social__item"><a href="#"><img src="img/telegram.png" alt="Telegram"></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <div class="container basic-flex">
+        <p class="copyright">Copyright © 2020</p>
+        <p>Разработка и поддержка сайта Webmasters</p>
+      </div>
+    </div>
+  </footer>
+  
+  <script src="js/sticky.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
